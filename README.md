@@ -1,1 +1,1 @@
-# google-homepage
+A tutorial project from The Odin Project where I replicate Google search page
