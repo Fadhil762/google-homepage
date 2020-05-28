@@ -1,1 +1,1 @@
-A tutorial project from The Odin Project where I replicate Google search page
+A tutorial project from The Odin Project where I try to replicate Google search page while adding my own twist
