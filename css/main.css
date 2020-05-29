@@ -3,12 +3,15 @@ div{display:block;}
 .big .ctr-p{
     min-width: 1139px;
 }
-.content{display:block;}
+/* .container{
+    width: 100%;
+    display:block;} */
 .nav-area{
+    position: relative;
     margin: 20px 0 40px 0;
     max-width: 1300px;
-    display: flex;
-    justify-content: flex-end;
+    display: block;
+    left: 70rem;
 }
 .nav-area > a{
     margin: 9px;
@@ -17,10 +20,10 @@ div{display:block;}
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     background: rgba(16, 20, 236, 0.692);
-    border: none;
+    /* border: none;*/
     cursor: pointer;
     border-radius: 4px;
-    width: 76px;
+    /*width: 76px;*/
 }
 .sign-in:hover{
     transition: background 1s;
@@ -83,8 +86,12 @@ div{display:block;}
     color: darkblue;
 }
 footer{
-    bottom: 0;
+    margin: 20px auto 20px auto;
+    padding-top: 7px;
+    position: relative;
+    top: 16em;
     width: 100%;
     display: block;
-    background: gray;
+    background: #f2f2f2;
+    border-top: 1px solid #f2f2f2;
 }
