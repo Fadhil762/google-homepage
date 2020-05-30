@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Google Search Page</title>
-        <link rel="stylesheet" href="./css/main.css">
+        <title>Google search Page</title>
+        <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
-        <!--div class="container"-->
-            <div class="nav-area">
+        <body>
+        <div class="container">
+            <nav id="nav-link">
                 <a href="#">Gmail</a>
                 <a href="#">Images</a>
-                <button 
-                    class="sign-in"
-                    type="button"
+                <button
+                role="button"
+                class="sign-in"
                 >Sign in</button>
-            </div>
-            <div class="logo-container">
+            </nav>
+            <div id="logo-section">
                 <img 
-                class="logo"
-                src="./images/logo.png" 
+                src="images/logo.png"
                 alt="Google logo"
                 >
             </div>
-            <div class="search-container">
+            <section id="search-area">
                 <input
-                class="search-area"
-                type="text"
+                class="search-bar"
+                type ="text"
                 name="search"
                 placeholder="Enter your search here..."
                 >
-            </div>
-            <div class="search-button">
-                <button 
-                class="btn"
-                type="button">Google Search</button>
+            </section>
+            <section id="search-button">
                 <button
                 class="btn"
-                type="button">I'm feeling lucky</button>
-            </div>
-            <div class="optional">
-                <p class="optional-p">
-                    Google also offered in: 
-                    <a class="optional-link" href="#">Bahasa Indonesia</a>
-                    <a class="optional-link" href="#">Bahasa Bali</a>  
+                role="button"
+                >Google search</button>
+                <button
+                class="btn"
+                role="button"
+                >I'm feeling lucky</button>
+            </section>
+            <div id="optional">
+                <p>Google also offered in: 
+                <a href="#">German</a>
+                <a href="#">Spanish</a>
                 </p>
             </div>
-            <footer class="bottom">
-                <a class="footer-link" href="#">Advertising</a>
-                <a class="footer-link" href="#">About</a>
-                <a class="footer-link" href="#">How search works</a>
+            <footer>
+                <section class="footer-top">
+                    <a href="#">Location</a>
+                </section>
+                <section class="footer-bottom">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">About</a>
+                    <a href="#">How search works</a>
+                    <a class="right" href="#">Settings</a>
+                    <a class="right" href="#">Terms</a>
+                    <a class="right" href="#">Privacy</a>
+                </section>
             </footer>
-        <!--/div-->
-    </body>
+        </div>
+        </body>
 </html>
